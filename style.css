@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(37, 108, 37);
+  margin: 10% 0 20px 0;
+}
+
+.container {
+  position: relative;
+  width: 80vw;
+  height: 50vh;
+
+  left: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container__box {
+  width: 24%;
+  height: 90%;
+  border-radius: 5px;
+  background-color: rgb(1, 71, 60);
+  padding-top: 20px;
+}
+
+.container__box--box {
+  width: 65%;
+  height: 70%;
+  padding-top: 10px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.timer_parag {
+  top: 10%;
+  position: relative;
+  font-size: 60px;
+  text-align: center;
+
+  color: #fff;
+}
+
+.time_title {
+  font-size: 18.72px;
+  color: #fff;
+  margin: 10px;
+  text-align: center;
+}
